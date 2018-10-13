@@ -1,1 +1,1 @@
-# Producer consumer problem
+# Producer consumer problem using semaphore
