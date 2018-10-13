@@ -1,1 +1,1 @@
-# Dining-Philosophers-problem
+# Producer consumer problem
