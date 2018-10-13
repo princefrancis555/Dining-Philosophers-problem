@@ -1,1 +1,1 @@
-# Dining-Philosophers-problem
+# Dining-Philosophers-problem using semaphore
