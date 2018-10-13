@@ -53,7 +53,7 @@ void main()
             down(mutex);
             printf("Producer producing item %d \n",i);
             up(mutex);
-            up(empty);
+            up(full);
             sleep(2);
             }
         }
@@ -62,7 +62,7 @@ void main()
         printf("Consumer running\n");
         for(i=0;i<n;i++)
             {
-            down(empty);
+            down(full);
             down(mutex);
             printf("consumer consuming item %d \n",i);
             up(mutex);
